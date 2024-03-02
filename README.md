@@ -10,3 +10,5 @@ Voraussetzungen:
 6. Für Automatisierung einen cronjob einrichten: 
 6.1 Im Verzeichnis, in dem die Dateien liegen "chmod +x create_post.py" ins terminal
 6.2 cronjob erstellen: "python create_cronjob.py" ins terminal, das erstellt den cronjob. Dann wird jeden Abend um 20 Uhr gepostet. Sollte das anders gewünscht sein, danach per "crontab -e" die Zeiten anpassen. https://crontab.guru
+
+Empfehlung: Einen Ordner ohne Leerzeichen im Namen im Heimverzeichins des Users erstellen und dort alle Dateien dieses Repos reinkopieren.
