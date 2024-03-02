@@ -1,5 +1,6 @@
 # blueksy-deine-mutter
 Skript, zum automatisierten Posten von vorgefertigten Texten auf Bluesky. Es liest aus einer Zeile, beginnend bei 1, den Text der Zeile und postet diesen. Bei der nächsten Ausführung wird der Text der nächsten Zeile gepostet.
+
 Voraussetzungen: 
 1. Python3 und zugehöriges pip ist installiert
 2. atproto installieren: "pip install atproto" ins terminal
